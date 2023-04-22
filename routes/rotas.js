@@ -1,6 +1,6 @@
 const { Router } = require('express');
 
-const { getProdutoras, addProdutora, updateProdutora, deleteProdutora, getProdutoraPorCodigo } = require('../controllers/ProdutorasController')
+const { getProdutoras, addProdutora, updateProdutora, deleteProdutora, getProdutoraPorCodigo } = require('../controllers/produtorasController')
 const { getJogos, addJogo, updateJogo, deleteJogo, getJogoPorCodigo } = require('../controllers/jogosController')
 
 const rotas = new Router();
